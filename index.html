@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tribute Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+<style>
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  body {
+      text-align: center;
+  }
+  #main {
+      width: 1170px;
+      margin: 0 auto;
+      min-height: 100%;
+      max-width: 100%;
+  }
+  header {
+      height: 100px;
+      background: linear-gradient(90deg, grey, lightgrey, rgba(46, 49, 49, 1));
+      width: 100%;
+      z-index: 10;
+      position: fixed;
+  }
+  #title {
+      width: 100%;
+      height: 500px;
+      position: fixed;
+      top: 100px;
+      background-image: url(https://media3.giphy.com/media/w5dC9BHsTZj5qHYP1G/giphy.gif);
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+  }
+  #title h2 {
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: white;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow{
+    from {
+      text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px  #fff, 0 0 80px  #fff;
+    }
+  }
+  #title p {
+    font-size: 24px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: hotpink;
+  }
+  .content-area {
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;
+    height: 2800px;
+  }
+  #image{
+      height:480px;
+      width:400px;
+  }
+  #img-caption{
+    color: white;
+  }
+  .content-area h2 {
+    color: white;
+    font-family: poppins;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    margin: 0;
+  }
+  .content-area p {
+    color: white;
+    padding: 2% 0px;
+    font-family: poppins;
+    line-height: 30px;
+  }
+  .content-area li {
+    color: white;
+    padding: 2% 0px;
+    font-family: poppins;
+    line-height: 30px;
+    text-align: center;
+    list-style-type: square;
+    list-style-position: inside;
+  }
+  .content-area a {
+    color: white;
+    padding: 2% 0px;
+    font-family: poppins;
+    line-height: 30px;
+  }
+</style>
+
+</head>
+<body>
+    <header>
+    <div id="main"><!--User Story #1-->
+        <audio controls style="margin-top: 22px;" type="audio/mpeg">
+            <source src="Runaway.mp3">
+        </audio>
+    </div>
+    </header>
+    <div id="title"><!--User Story #2-->
+        <h2>Avril Lavigne</h2>
+        <p>Pop Punk Princess</p>
+    </div>
+    <div class="content-area">
+          <div id="main">
+            <h2>A Tribute</h2>
+            <div id="img-div"><!--User Story #3-->
+                <img id="image" src="https://i.pinimg.com/736x/bd/b4/15/bdb415e855a0ae50ce6ace5daa11258d.jpg"><!--User Story #4-->
+                <figcaption id="img-caption">Avril Lavigne in her 20s</figcaption><!--User Story #5-->
+            </div>
+            <div id="tribute-info"><!--User Story #6-->
+              <p>Avril Ramona Lavigne was born on September 27, 1984, in Belleville, Ontario, Canada. She grew up in the small town of Napanee, Ontario.
+                  Her French-Canadian parents Jean-Claude and Judy were devout Baptists. She was exposed to music by the age of two through her mother's church songs.
+                  Until the age of 12, she was just a singer. Soon, she started teaching herself to play the guitar and also started writing songs.
+                  In 1999, Lavigne tasted success for the very first time. She won a singing contest and took the stage alongside Shania Twain in Canada's capital, Ottawa.
+                  In 1999, she was spotted by Cliff Fabri, who eventually became her first professional manager, while she was performing at a bookstore in Kingston, Ontario.</p>
+                <p>Here is a list of a few of her achievements that made her the inspiration of many:</p>
+                <ul>
+                  <li>AG Canadian Hair Cosmetics Awards</li>
+                  <li>American Music Awards</li>
+                  <li>ASCAP Film and Television Music Awards</li>
+                  <li>ASCAP Pop Music Awards</li>
+                  <li>Billboard Japan Music Awards</li>
+                  <li>Billboard Music Awards</li>
+                  <li>Billboard.com Mid-Year Music Awards</li>
+                  <li>BMI London Awards</li>
+                  <li>BMI Pop Music Awards</li>
+                  <li>Bravo Otto</li>
+                  <li>Brit Awards</li>
+                  <li>Canadian Music & Broadcast Industry Awards</li>
+                  <li>Canadian Radio Music Awards</li>
+                  <li>Capricho Awards</li>
+                  <li>CEW Beauty Awards</li>
+                  <li>Channel V Thailand Music Video Awards</li>
+                  <li>Comet Music Awards</li>
+                  <li>Common Sense Media Awards</li>
+                  <li>Danish Music Awards</li>
+                  <li>Echo Awards</li>
+                  <li>Edison Music Awards</li>
+                  <li>FiFi Awards</li>
+                  <li>GAFFA Awards (Denmark)</li> 
+                </ul>
+                <p>Though absent from the entertainment industry for quite some time, Avril Lavigne has earned the love of many. And although her voice isn't always heard,
+                  her music continues to put a smile on those who listen to her as she is one of the most genuine artists.
+                </p>
+                <a id="tribute-link" href="https://en.wikipedia.org/wiki/Avril_Lavigne" target="_blank">See more here</a><!--User Story #7-->
+            </div>
+          </div>
+        </div>
+    </div>
+<!--User Story #8--><!--image does responsively resize✔️-->
+<!--User Story #9--><!--image element is centered within its parent element✔️-->
+</body>
+</html>
